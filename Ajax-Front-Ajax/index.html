@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <title>TestNodejs</title>
+    <!-- 引入jQuery -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- <script src="./js/jquery/dist/jquery.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- 引入index.js -->
+    <script src="index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+ 
+<body>
+    <style type="text/css">
+        #serverRet {
+            width: 300px;
+        }
+ 
+        #FileRet {
+            width: 300px;
+        }
+    </style>
+    <input type="button" name="Test" value="UseServerFunction" onclick="ServerFunction()" />
+    <input type="text" name="serverRet" id="serverRet" />
+    <input type="button" name="Test" value="UseFunctionFileFunction" onclick="FunctionFileFunction()" />
+    <input type="text" name="FileRet" id="FileRet" />
+</body>
+ 
+</html>
