@@ -1,0 +1,53 @@
+RECD021
+
+
+Condition                            0050569360C21EEDAD865238E13997A2
+CL_RECE_CASHFLOW_SERVICES=====CP
+MODIFY_CASHFLOW
+
+RE Key                               IS00100016446
+Calc. Obj.                           IS12000101960195001
+Entered By                           NS_YQCUI
+First Enterd On                      2023.02.24
+Time Init.Ent.                       19:01:33
+Source.In.Entry                      RECN
+Last Changed By                      NS_YQCUI
+Last Edited On                       2023.02.24
+Last Edited At                       19:16:53
+Editing Source                       RECN
+Currency                             CNY
+Due Date
+FollPost Due
+Distrib. Obj.                        IS12000101960195001
+Calc. Invalid
+
+Client             800
+RE Key             IS00100016446
+Val. Rule          005056934D901EECA2AF40FE02DE41D6
+Condition          0050569360C21EEDAD865238E13997A2
+
+Val. Property      U
+Consideration      R
+Cons. Condition    X
+Percentage         0.0000
+Abs. Share         0.00
+Currency           CNY
+Status C. Rule     C
+Note
+
+
+Client             800
+RE Key             IS00100016446
+Val. Rule          005056934D901EECA2AF3DF4FB9381D4
+Condition          0050569360C21EEDAD865238E13997A2
+
+Val. Property      A
+Consideration      F
+Cons. Condition    X
+Percentage         100.0000
+Abs. Share         0.00
+Currency           CNY
+Status C. Rule
+Note
+
+0050569360C21EEDAD865238E13997A2

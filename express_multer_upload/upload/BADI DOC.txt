@@ -1,0 +1,40 @@
+HY SIMGCUSTOMER_ADD_DATA_CS
+
+Use
+
+Application component: LO-MD-BP-CM,  FI-AR-AR-N
+
+Package: VS
+
+You use the Business Add-Ins (BADI) CUSTOMER_ADD_DATA_CS and BADI CUSTOMER_ADD_DATA for processing enhancements in the customer master record. You use the BADI CUSTOMER_ADD_DATA_CS to integrate your own subscreens in the standard dialog. You can process your own data (add-on data) on these subscreens.
+
+For more information, see the documentation of the individual methods.
+
+Requirements
+
+Ensure that:
+•In Customizing for the customer master, under Transfer Customer Master Data Fields, you have prepared the modification-free enhancement of the customer record so that you have defined a screen group with name and have labeled the tab pages
+•You have activated the processing of your own data with the method CHECK_ADD_ON_ACTIVE of the Business Add-In CUSTOMER_ADD_DATA in the standard dialog.
+
+Standard settings
+
+The Business Add-In is not activated in the standard.
+
+The Business Add-In is filter-dependent.
+
+You can use the Business Add-In more than once.
+
+Activities
+
+To activate the Business Add-In, you must create an active implementation. To do this, choose the following path in the SAP Menu: Tools -> ABAP Workbench -> Utilities -> Business Add-Ins -> Implementation
+
+For more information about this procedure, see the SAP Library under
+• Basis Components -> ABAP Workbench -> Changing the SAP Standard -> Business Add-Ins -> Implementing Business Add-Ins.
+
+Due to the filter dependency of the Business Add-In, you have to specify a filter. Choose the screen group selected in your Customizing settings as the filter.
+
+Note that the Business Add-In can be used multiple times and therefore all active implementations are called and run through.
+
+Example
+
+You can use the Business Add-In to integrate subscreens in the standard dialog of the customer master. On these subscreens you can enable the processing of your own data.
