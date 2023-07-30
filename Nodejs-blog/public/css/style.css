@@ -1,0 +1,13 @@
+.alert-error {
+    color: rgb(81, 16, 231);
+    background-color: rgb(18, 241, 10);
+    border-color: #ebccd1;
+
+}
+
+.alert-success {
+    color: bisque;
+    background-color: rgb(111, 196, 42);
+    border-color: #7988a5;
+
+}
