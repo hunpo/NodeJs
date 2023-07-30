@@ -3,3 +3,4 @@
    npm install -g bower
    bower install jquery --save
    bower install bootstrap --save
+参考:https://www.qiuzhi99.com/playlists/nodejs-express-blog.html?invite_code=498391
